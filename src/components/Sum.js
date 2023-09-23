@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Sum = () => {
-const [sum, setSum] = useStae(0);
+let [sum, setSum] = useState(0);
     return (
         <div>
             <h1>Sum Calculator</h1>
