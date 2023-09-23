@@ -13,3 +13,4 @@ let [sum, setSum] = useState(0);
         </div>
     )
 }
+export default Sum
